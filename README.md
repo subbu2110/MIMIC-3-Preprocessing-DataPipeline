@@ -1,14 +1,9 @@
 # MIMIC-IV
-**MIMIC-IV data pipeline** is an end-to-end pipeline that offers a configurable framework to prepare MIMIC-IV data for the downstream tasks. 
-The pipeline cleans the raw data by removing outliers and allowing users to impute missing entries. 
-It also provides options for the clinical grouping of medical features using standard coding systems for dimensionality reduction.  
-All of these options are customizable for the users, allowing them to generate a personalized  patient cohort. 
-The customization steps can be recorded for the reproducibility of the overall framework. 
-The pipeline produces a smooth time-series dataset by binning the sequential data into equal-length time intervals and allowing for filtering of the time-series length according to the user's preferences.
-Besides the data processing modules, our pipeline also includes two additional modules for modeling and evaluation. 
-For modeling, the pipeline includes several commonly used sequential models for performing prediction tasks. 
-The evaluation module offers a series of standard methods for evaluating the performance of the created models. 
-This module also includes options for reporting individual and group fairness measures.
+**MIMIC-IV data pipeline** is a fully configurable, end-to-end framework designed to prepare MIMIC-IV data for various downstream tasks. It begins by cleaning raw data, removing outliers, and allowing for user-defined strategies to impute missing values. The pipeline also supports clinical grouping of medical features using standardized coding systems, enabling effective dimensionality reduction.
+
+Users can customize every step of the process to generate personalized patient cohorts, and all configurations can be logged to ensure full reproducibility. The pipeline converts sequential data into a structured time-series format by binning it into equal-length intervals and supports user-defined filtering based on sequence length.
+
+In addition to preprocessing, the pipeline includes modules for modeling and evaluation. The modeling component provides implementations of commonly used sequential models for prediction tasks, while the evaluation module includes standard performance metrics along with tools to assess individual and group fairness in model outputs.
 
 ##### Citing MIMIC-IV Data Pipeline:
 MIMIC-IV Data Pipeline is available on [ML4H](https://proceedings.mlr.press/v193/gupta22a/gupta22a.pdf).
