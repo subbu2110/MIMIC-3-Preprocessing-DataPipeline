@@ -11,7 +11,7 @@ If you use MIMIC-IV Data Pipeline, we would appreciate citations to the followin
 
 ```
 @InProceedings{subbu2110,
-  title = 	 {MIMIC-IV Data Pre-Processing Pipeline}
+  title = 	 {MIMIC-IV Data Pre-Processing Pipeline}}
 ```
 
 ## Table of Contents:
