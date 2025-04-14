@@ -79,4 +79,3 @@ Download the files using your terminal: wget -r -N -c -np --user mehakg --ask-pa
 - Follow each code bloack and read intructions given just before each code block to run code block.
 - Follow the exact file paths and filenames given in instructions for each code block to run the pipeline.
 - For evaluation module, clear instructions are provided on how to use it as a standalone module.
-# MIMIC-3-Preprocessing-DataPipeline
